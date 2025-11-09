@@ -24,9 +24,9 @@ class ProdukController {
 
     public function store() {
         $data = [
-            'film' => $_POST['film'] ?? '',
-            'genre' => $_POST['genre'] ?? '',
-            'sutradara' => $_POST['sutradara'] ?? '',
+            'film' => $_POST['judul'] ?? '',
+            'genre' => $_POST['penulis'] ?? '',
+            'sutradara' => $_POST['penerbit'] ?? '',
             'harga' => (int)($_POST['harga'] ?? 0)
         ];
         $this->model->save($data);
@@ -43,9 +43,9 @@ class ProdukController {
         $id = $_POST['id'] ?? null;
         if ($id === null) { echo 'Missing id'; return; }
         $data = [
-            'film' => $_POST['film'] ?? '',
-            'genre' => $_POST['genre'] ?? '',
-            'sutradara' => $_POST['sutradara'] ?? '',
+            'film' => $_POST['judul'] ?? '',
+            'genre' => $_POST['penulis'] ?? '',
+            'sutradara' => $_POST['penerbit'] ?? '',
             'harga' => (int)($_POST['harga'] ?? 0)
         ];
         $this->model->update($id, $data);
@@ -58,5 +58,4 @@ class ProdukController {
         header('Location: index.php');
     }
 }
-
 ?>

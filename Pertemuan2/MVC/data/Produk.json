@@ -1,0 +1,23 @@
+[
+    {
+        "film": "John Wick 2",
+        "genre": "Action",
+        "sutradara": "Keanu Reves",
+        "harga": 50000,
+        "id": 1
+    },
+    {
+        "film": "Agak Laen",
+        "genre": "Komedi",
+        "sutradara": "Indra Jegel",
+        "harga": 35000,
+        "id": 2
+    },
+    {
+        "film": "The Conjuring",
+        "genre": "Horror",
+        "sutradara": "Ed",
+        "harga": 45000,
+        "id": 3
+    }
+]
