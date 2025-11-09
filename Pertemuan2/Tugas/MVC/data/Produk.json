@@ -1,0 +1,16 @@
+[
+    {
+        "film": "John Wick 2",
+        "genre": "Action",
+        "sutradara": "Keanu Reves",
+        "harga": 50000,
+        "id": 1
+    },
+    {
+        "film": "Fast Furious 9",
+        "genre": "Action",
+        "sutradara": "Dominic",
+        "harga": 35000,
+        "id": 2
+    }
+]
